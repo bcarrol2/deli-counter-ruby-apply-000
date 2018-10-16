@@ -12,6 +12,7 @@ def line(x)
   end
 end
 def take_a_number(katz_deli)
+  katz_deli.push(katz_deli.count(+1))
   puts "Welcome, You are number #{katz_deli.length} in line."
 end
 def now_serving(array)
